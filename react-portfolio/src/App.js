@@ -3,6 +3,7 @@ import './App.css';
 // Components
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 
 // Pages
 import About from './components/pages/About';
@@ -36,7 +37,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Header />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
       </header>
       <main>
       {renderPage()}

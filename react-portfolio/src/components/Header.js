@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './Navigation';
 
 export default function Header() {
     return (
@@ -15,8 +14,6 @@ export default function Header() {
           }}
         >
             <h1>Sydnie Farrell</h1>
-            
-          < Navigation />
         </section>
       </nav>
     );
