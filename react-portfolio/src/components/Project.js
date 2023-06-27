@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Project = ({ title, image, description, github, deployed }) => {
-    const imagePath = require(`../images/${image}`).default;
+    const imagePath = require(`./images/${image}`).default;
   return (
     <div>
       <h2>{title}</h2>
