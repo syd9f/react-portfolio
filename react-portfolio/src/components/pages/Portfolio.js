@@ -31,8 +31,9 @@ export default function Portfolio() {
 
       ];
     return (
-    <div>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <h1>Portfolio</h1>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
         {projects.map((project) => (
         <Project 
             key={project.id} 
@@ -42,6 +43,7 @@ export default function Portfolio() {
             github={project.github}
             deployed={project.deployed} />
         ))}
+        </div>
     </div>
     );
 }
