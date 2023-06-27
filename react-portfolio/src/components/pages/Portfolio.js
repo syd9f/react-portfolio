@@ -9,7 +9,7 @@ export default function Portfolio() {
             image: 'password-generator.png', 
             description: 'Generate a Random Password', 
             github: 'https://www.github.com/syd9f/password-generator',
-            deployed: 'https://www.syd9f.github.io/password-generator'
+            deployed: 'https://syd9f.github.io/password-generator'
         },  
         { 
             id: 2, 
@@ -17,7 +17,7 @@ export default function Portfolio() {
             image: 'code-quiz.png', 
             description: 'Practice your Coding Knowledge',
             github: 'https://www.github.com/syd9f/code-quiz',
-            deployed: 'https://www.syd9f.github.io/code-quiz'
+            deployed: 'https://syd9f.github.io/code-quiz'
         },
         { 
             id: 3, 
@@ -25,7 +25,7 @@ export default function Portfolio() {
             image: 'workday-scheduler.png', 
             description: 'Plan your Workday',
             github: 'https://www.github.com/syd9f/workday-scheduler',
-            deployed: 'https://www.syd9f.github.io/workday-scheduler'
+            deployed: 'https://syd9f.github.io/workday-scheduler'
         },
         { 
             id: 4, 
@@ -41,7 +41,7 @@ export default function Portfolio() {
             image: 'readme-generator.gif', 
             description: 'Answer Prompts to generate a README.md file for your project',
             github: 'https://www.github.com/syd9f/readme-generator',
-            deployed: 'https://www.syd9f.github.io/readme-generator'
+            deployed: 'https://syd9f.github.io/readme-generator'
         },
         { 
             id: 6, 
@@ -49,7 +49,7 @@ export default function Portfolio() {
             image: 'note-taker.png', 
             description: 'Take notes!',
             github: 'https://www.github.com/syd9f/note-taker',
-            deployed: 'https://www.syd9f.github.io/note-taker'
+            deployed: 'https://syd9f.github.io/note-taker'
         },
 
       ];
