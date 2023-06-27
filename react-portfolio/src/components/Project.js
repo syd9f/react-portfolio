@@ -10,8 +10,8 @@ const Project = ({ title, image, description, github, deployed }) => {
             padding: '20px',
             display: 'flex',
             flexDirection: 'row',
-            alignItems: 'flex-start',
-            justifyContent: 'flex-start',
+            alignItems: 'center',
+            justifyContent: 'center',
             width: '20vw'
         }}
     >
