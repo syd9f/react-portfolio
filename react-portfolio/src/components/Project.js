@@ -5,7 +5,7 @@ const Project = ({ title, imageLink, description }) => {
   return (
     <div>
       <h2>{title}</h2>
-      <image src={imageLink}></image>
+      <img src={imageLink} alt="application" height="200" />
       <p>{description}</p>
     </div>
   );
