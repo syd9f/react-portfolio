@@ -24,6 +24,10 @@
   color: white;
 }
 
+main {
+  min-height: 75vh;
+}
+
 .App-link {
   color: #61dafb;
 }
