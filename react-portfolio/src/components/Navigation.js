@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Navigation() {
+export default function Navigation({ currentPage, handlePageChange }) {
   const linkStyle = { border: '1px black', padding: '5px' };
 
   return (
@@ -15,19 +15,39 @@ export default function Navigation() {
         }}
       >
         <div style={linkStyle}>
-          <a href="/">Home</a>
+          <a href="#home" 
+             onClick={() => handlePageChange('Home')} 
+             className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+          Home
+          </a>
         </div>
         <div style={linkStyle}>
-          <a href="/">About</a>
+          <a href="#about"
+             onClick={() => handlePageChange('About')} 
+             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+          About
+          </a>
         </div>
         <div style={linkStyle}>
-          <a href="/">Portfolio</a>
+          <a href="#portfolio"
+             onClick={() => handlePageChange('Portfolio')} 
+             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+          Portfolio
+          </a>
         </div>
         <div style={linkStyle}>
-          <a href="/">Contact</a>
+          <a href="#contact"
+             onClick={() => handlePageChange('Contact')} 
+             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+          Contact
+          </a>
         </div>
         <div style={linkStyle}>
-          <a href="/">Resume</a>
+          <a href="#resume"
+             onClick={() => handlePageChange('Resume')} 
+             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
+          Resume
+          </a>
         </div>
       </section>
     </nav>
