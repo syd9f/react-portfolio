@@ -8,14 +8,16 @@ export default function Portfolio() {
             title: 'Password Generator', 
             image: 'password-generator.png', 
             description: 'Generate a Random Password', 
-            link: 'password-generator',
+            github: 'http://www.github.com/syd9f/password-generator',
+            deployed: 'http://www.syd9f.github.io/password-generator'
         },  
         { 
             id: 2, 
             title: 'Code Quiz', 
             image: 'code-quiz.png', 
             description: 'Practice your Coding Knowledge',
-            link: 'code-quiz',
+            github: 'http://www.github.com/syd9f/code-quiz',
+            deployed: 'http://www.syd9f.github.io/code-quiz'
         },
             
         { 
@@ -23,7 +25,8 @@ export default function Portfolio() {
             title: 'Workday Scheduler', 
             image: 'workday-scheduler.png', 
             description: 'Plan your Workday',
-            link: 'workday-scheduler',
+            github: 'http://www.github.com/syd9f/workday-scheduler',
+            deployed: 'http://www.syd9f.github.io/workday-scheduler'
         },
 
       ];
@@ -36,7 +39,8 @@ export default function Portfolio() {
             title={project.title} 
             image={project.image} 
             description={project.description}
-            link={project.link} />
+            github={project.github}
+            deployed={project.deployed} />
         ))}
     </div>
     );
