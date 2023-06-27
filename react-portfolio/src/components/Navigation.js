@@ -15,19 +15,19 @@ export default function Navigation() {
         }}
       >
         <div style={linkStyle}>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">About</a>
+          <a href="/">About</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">Portfolio</a>
+          <a href="/">Portfolio</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">Contact</a>
+          <a href="/">Contact</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">Resume</a>
+          <a href="/">Resume</a>
         </div>
       </section>
     </nav>
