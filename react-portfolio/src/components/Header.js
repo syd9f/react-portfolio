@@ -11,6 +11,7 @@ export default function Header() {
             flexDirection: 'row',
             alignItems: 'flex-start',
             justifyContent: 'flex-start',
+            background: 'white',
           }}
         >
             <h1>Sydnie Farrell</h1>
