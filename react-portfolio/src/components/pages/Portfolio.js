@@ -52,15 +52,16 @@ export default function Portfolio() {
             deployed: 'https://syd9f.github.io/note-taker'
         },
       ];
+    const backgroundPath = 'url("../../../../images/flower.jpeg")'
     return (
     <div style={{ 
         display: 'flex', 
         flexDirection: 'column', 
         alignItems: 'center', 
-        backgroundImage: '.../images/flower.jpeg', 
+        backgroundImage: backgroundPath, 
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
-        backgroundRepeat: 'no-repeat'}}>
+        backgroundRepeat: 'repeat'}}>
         <h1>Portfolio</h1>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
         {projects.map((project) => (
