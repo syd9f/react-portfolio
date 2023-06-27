@@ -12,6 +12,7 @@ const Project = ({ title, image, description, github, deployed }) => {
             flexDirection: 'row',
             alignItems: 'flex-start',
             justifyContent: 'flex-start',
+            width: '20vw'
         }}
     >
     <div>
