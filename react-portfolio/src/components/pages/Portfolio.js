@@ -51,10 +51,16 @@ export default function Portfolio() {
             github: 'https://www.github.com/syd9f/note-taker',
             deployed: 'https://syd9f.github.io/note-taker'
         },
-
       ];
     return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div style={{ 
+        display: 'flex', 
+        flexDirection: 'column', 
+        alignItems: 'center', 
+        backgroundImage: '.../images/flower.jpeg', 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center', 
+        backgroundRepeat: 'no-repeat'}}>
         <h1>Portfolio</h1>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }}>
         {projects.map((project) => (
