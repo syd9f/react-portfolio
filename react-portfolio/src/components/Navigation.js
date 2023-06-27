@@ -18,16 +18,16 @@ export default function Navigation() {
           <a href="#">Home</a>
         </div>
         <div style={linkStyle}>
-          <a href="#">Login</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Register</a>
-        </div>
-        <div style={linkStyle}>
           <a href="#">About</a>
         </div>
         <div style={linkStyle}>
+          <a href="#">Portfolio</a>
+        </div>
+        <div style={linkStyle}>
           <a href="#">Contact</a>
+        </div>
+        <div style={linkStyle}>
+          <a href="#">Resume</a>
         </div>
       </section>
     </nav>
