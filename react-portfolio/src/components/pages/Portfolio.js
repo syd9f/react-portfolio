@@ -19,7 +19,6 @@ export default function Portfolio() {
             github: 'https://www.github.com/syd9f/code-quiz',
             deployed: 'https://www.syd9f.github.io/code-quiz'
         },
-            
         { 
             id: 3, 
             title: 'Workday Scheduler', 
@@ -27,6 +26,30 @@ export default function Portfolio() {
             description: 'Plan your Workday',
             github: 'https://www.github.com/syd9f/workday-scheduler',
             deployed: 'https://www.syd9f.github.io/workday-scheduler'
+        },
+        { 
+            id: 4, 
+            title: 'Meal Planner', 
+            image: 'mealplanner.png', 
+            description: 'Plan your meals by searching for an Ingredient',
+            github: 'https://www.github.com/mark-227-g/mealplanner',
+            deployed: 'https://mark-227-g.github.io/mealplanner/'
+        },
+        { 
+            id: 5, 
+            title: 'README Generator', 
+            image: 'readme-generator.gif', 
+            description: 'Answer Prompts to generate a README.md file for your project',
+            github: 'https://www.github.com/syd9f/readme-generator',
+            deployed: 'https://www.syd9f.github.io/readme-generator'
+        },
+        { 
+            id: 6, 
+            title: 'Note Taker', 
+            image: 'note-taker.png', 
+            description: 'Take notes!',
+            github: 'https://www.github.com/syd9f/note-taker',
+            deployed: 'https://www.syd9f.github.io/note-taker'
         },
 
       ];
