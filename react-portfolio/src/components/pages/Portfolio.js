@@ -8,16 +8,16 @@ export default function Portfolio() {
             title: 'Password Generator', 
             image: 'password-generator.png', 
             description: 'Generate a Random Password', 
-            github: 'http://www.github.com/syd9f/password-generator',
-            deployed: 'http://www.syd9f.github.io/password-generator'
+            github: 'https://www.github.com/syd9f/password-generator',
+            deployed: 'https://www.syd9f.github.io/password-generator'
         },  
         { 
             id: 2, 
             title: 'Code Quiz', 
             image: 'code-quiz.png', 
             description: 'Practice your Coding Knowledge',
-            github: 'http://www.github.com/syd9f/code-quiz',
-            deployed: 'http://www.syd9f.github.io/code-quiz'
+            github: 'https://www.github.com/syd9f/code-quiz',
+            deployed: 'https://www.syd9f.github.io/code-quiz'
         },
             
         { 
@@ -25,8 +25,8 @@ export default function Portfolio() {
             title: 'Workday Scheduler', 
             image: 'workday-scheduler.png', 
             description: 'Plan your Workday',
-            github: 'http://www.github.com/syd9f/workday-scheduler',
-            deployed: 'http://www.syd9f.github.io/workday-scheduler'
+            github: 'https://www.github.com/syd9f/workday-scheduler',
+            deployed: 'https://www.syd9f.github.io/workday-scheduler'
         },
 
       ];
