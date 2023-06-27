@@ -1,11 +1,12 @@
 import React from 'react';
 
 
-const Project = ({ title, imageLink, description }) => {
+const Project = ({ title, image, description }) => {
+    const imagePath = require(`../images/${image}`).default;
   return (
     <div>
       <h2>{title}</h2>
-      <img src={imageLink} alt="application" height="200" />
+      <img src={imagePath} alt="application" height="200" />
       <p>{description}</p>
     </div>
   );
