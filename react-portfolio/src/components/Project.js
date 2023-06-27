@@ -7,7 +7,11 @@ const Project = ({ title, image, description, github, deployed }) => {
         style={{
             background: "#FFE3FD",
             border: "2px solid black",
-            padding: '20px'
+            padding: '20px',
+            display: 'flex',
+            flexDirection: 'row',
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
         }}
     >
     <div>
