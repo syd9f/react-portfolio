@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from '../Project';
-import picture from '../../images/flower.jpeg';
 
 export default function Portfolio() {
     const projects = [
@@ -53,13 +52,13 @@ export default function Portfolio() {
             deployed: 'https://syd9f.github.io/note-taker'
         },
       ];
-    // const backgroundPath = 'url("../../images/flower.jpeg")'
+    const backgroundPath = 'url("../../images/flower.jpeg")'
     return (
     <div style={{ 
         display: 'flex', 
         flexDirection: 'column', 
         alignItems: 'center', 
-        backgroundImage: picture, 
+        backgroundImage: backgroundPath, 
         backgroundSize: 'cover', 
         backgroundPosition: 'center', 
         backgroundRepeat: 'repeat'}}>
