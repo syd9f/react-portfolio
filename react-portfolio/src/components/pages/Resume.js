@@ -4,9 +4,10 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>This is where I am putting my Github link!</p>
-      <p>The link to my LinkedIn will go here</p>
-      <p>I will also include some information on what I know about in regards to coding languages and whatnot</p>
+      <p>See my project repositories on: </p>
+      <a href="https://github.com/syd9f" target="_blank" rel="noreferrer">Github</a>
+      <p>Connect with me on: </p>
+      <a href="https://www.linkedin.com/in/sydnie-farrell-5479a4136/" target="_blank" rel="noreferrer">LinkedIn</a>
     </div>
   );
 }
