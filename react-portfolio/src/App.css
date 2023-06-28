@@ -31,3 +31,25 @@ main {
 .App-link {
   color: #61dafb;
 }
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+
+input[type="text"], textarea {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 8px 20px;
+  background-color: lightsalmon;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
